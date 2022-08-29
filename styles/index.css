@@ -1,0 +1,233 @@
+.tab-title {
+   margin-bottom: 10px;
+   font-family: Quicksand;
+   font-size: 18px;
+   font-weight: 600;
+   color: var(--purple);
+}
+
+.main-text {
+   font-size: 16px;
+   font-family: Inter;
+   font-weight: 500;
+   color: var(--black);
+}
+
+.secondary-text {
+   font-size: 14px;
+   font-family: Inter;
+   color: var(--black);
+}
+
+.card {
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   border-radius: 15px;
+   overflow: hidden;
+   margin-bottom: 30px;
+}
+
+.generic-btn {
+   text-decoration: none;
+   display: inline-block;
+   padding: 10px 15px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.add-btn {
+   margin-bottom: 20px;
+   background: var(--green);
+   color: var(--white);
+   border: 2px solid var(--green);
+}
+
+.add-btn-container {
+   text-align: right;
+}
+
+.edit-btn:hover {
+   background: var(--yellow);
+   color: var(--white);
+}
+
+/*Imagen e información*/
+.house-image-info {
+   display: flex;
+   background: var(--white);
+   overflow: hidden;
+}
+
+.house-image {
+   width: 50%;
+   height: 200px;
+   object-fit: cover;
+}
+
+.house-image img {
+   height: 100%;
+   width: 100%;
+}
+
+.house-info {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 100%;
+   padding: 10px;
+}
+
+.house-title {
+   font-family: Quicksand;
+   font-size: 20px;
+   font-weight: 700;
+   color: var(--black);
+}
+
+.house-owner-price {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+}
+
+.house-price {
+   margin-bottom: 20px;
+   font-family: Quicksand;
+   font-size: 24px;
+   font-weight: 700;
+   color: var(--black);
+}
+
+.contact-button {
+   border: 2px solid var(--purple);
+   background: var(--white);
+   color: var(--purple);
+   padding: 10px 15px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 0.2s ease all;
+}
+
+.contact-button:hover {
+   background: var(--purple);
+   color: var(--white);
+}
+
+/*ExpansionPanel*/
+.k-expander {
+   border: none;
+}
+
+.k-expander.k-focus,
+.k-expander.k-state-focus {
+   box-shadow: none;
+}
+
+.k-expander-header,
+.k-expander-sub-title {
+   transition: 0.2s ease all;
+   color: var(--black);
+}
+
+.k-expander-header.k-hover,
+.k-expander-header.k-state-hover,
+.k-expander-header:hover {
+   transition: 0.2s ease all;
+   background: var(--purple);
+   color: var(--white);
+}
+
+.k-expander-header:hover .k-expander-sub-title {
+   color: var(--white);
+}
+
+/*TabStrip*/
+.k-tabstrip-items-wrapper .k-item {
+   font-size: 16px;
+   font-family: Inter;
+   font-weight: 500;
+   color: var(--purple);
+}
+.k-tabstrip-items-wrapper .k-item:hover {
+   background: var(--purple);
+   color: var(--white);
+}
+
+.k-tabstrip-items-wrapper .k-item.k-active,
+.k-tabstrip-items-wrapper .k-item.k-selected,
+.k-tabstrip-items-wrapper .k-item.k-state-active,
+.k-tabstrip-items-wrapper .k-item.k-state-selected,
+.k-tabstrip-items-wrapper .k-item:active {
+   background: var(--purple);
+   color: var(--white);
+}
+
+.k-tabstrip-content,
+.k-tabstrip > .k-content {
+   color: var(--black);
+}
+
+/*Pestaña Descripción*/
+.description {
+   margin-bottom: 20px;
+}
+
+.feature {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+}
+
+.feature:last-child {
+   margin-bottom: 0;
+}
+
+.feature-text {
+   margin-left: 5px;
+}
+
+/*Pestaña Servicios*/
+.services {
+   overflow: hidden;
+}
+
+.services .tab-title,
+.gallery .tab-title {
+   text-align: center;
+}
+
+.services-wrapper {
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   justify-items: center;
+   align-content: space-between;
+   gap: 20px;
+}
+
+.service {
+   text-align: center;
+   width: 100%;
+}
+
+.service-text {
+   margin-top: 5px;
+}
+
+/*Pestaña Galería*/
+.gallery img {
+   width: 33%;
+}
+
+/*Pestaña Contacto*/
+.contact {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+}
+
+.contact-text {
+   margin-left: 5px;
+}
+
+.map {
+   margin-top: 20px;
+}

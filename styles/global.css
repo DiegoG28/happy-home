@@ -1,0 +1,23 @@
+:root {
+   --purple: #2f2259;
+   --white: #fff;
+   --black: #2a2d34;
+   --green: #307351;
+   --yellow: #d2a80f;
+}
+
+/*Estilos generales*/
+* {
+   margin: 0;
+   padding: 0;
+}
+
+p {
+   white-space: pre-line;
+}
+
+body {
+   padding: 5% 30%;
+   box-sizing: border-box;
+   background: #f7f7ff;
+}
