@@ -52,7 +52,7 @@
 			<div class="card">
 				<div class="house-image-info">
 					<div class="house-image">
-						<img src="https://picsum.photos/id/237/400/200" alt="">
+						<img src="https://picsum.photos/400/200" alt="">
 					</div>
 					<div class="house-info">
 						<div>
